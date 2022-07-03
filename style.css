@@ -8,13 +8,13 @@ h1{
 .yellow{
     color: orange;
 }
-section{
+.flexible{
     display: flex;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
-    padding-left: 6%;
+    padding-left: 8%;
 }
 .half-width img{
     width: 80%;
@@ -36,7 +36,7 @@ section{
 #grad {
     background-image: linear-gradient(to right, red , yellow);
   }
-  #image{
+  .image{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
   }
@@ -44,4 +44,13 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-left: 110px;
   }
+  .container{
+    display: flex;
+  }
+  #ida{
+    text-align: center;
+    margin-top: 100px;
+  }
+ 
